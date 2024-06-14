@@ -40,7 +40,7 @@ int minOperationsReverse(int start, int target) {
     return -1;
 }
 
-int testMinOperationsReverse(int testIndex, int start, int target, int result) {
+int testMinOperations(int testIndex, int start, int target, int result) {
     std::cout << "Тест " << testIndex << " для (" << start << ", " << target << ") "
               << (minOperationsReverse(start, target) == result ? "пройден!" : "не пройден!") << " Результат:" << result << std::endl;
     return 0;
@@ -48,14 +48,14 @@ int testMinOperationsReverse(int testIndex, int start, int target, int result) {
 
 int main() {
     // Примеры тестов
-    testMinOperationsReverse(1, 1, 100, 7);
-    testMinOperationsReverse(2, 2, 55, 6);
-    testMinOperationsReverse(3, 2, 100, 7);
-    testMinOperationsReverse(4, 1, 97, 8);
-    testMinOperationsReverse(5, 2, 1000, 11);
-    testMinOperationsReverse(6, 3, 1001, 13);
-    testMinOperationsReverse(7, 2, 3001, 14);
-    testMinOperationsReverse(8, 2, 10000001, 30);
+    testMinOperations(1, 1, 100, 7);
+    testMinOperations(2, 2, 55, 6);
+    testMinOperations(3, 2, 100, 7);
+    testMinOperations(4, 1, 97, 8);
+    testMinOperations(5, 2, 1000, 11);
+    testMinOperations(6, 3, 1001, 13);
+    testMinOperations(7, 2, 3001, 14);
+    testMinOperations(8, 2, 10000001, 30);
 
     return 0;
 }
