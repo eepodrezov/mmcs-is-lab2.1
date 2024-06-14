@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang++",
+            "compilerArgs": [
+                "-std=c++11"
+            ]
+        }
+    ],
+    "version": 4
+}
